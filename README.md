@@ -1,4 +1,4 @@
-![MasterHead](https://drive.google.com/file/d/1pMoqul379_sYZ8IGkvSxlDqv12LMb642/view?usp=drive_link)
+![MasterHead]([https://drive.google.com/file/d/1pMoqul379_sYZ8IGkvSxlDqv12LMb642/view?usp=drive_link](https://file.io/WBejRUjPBkk4))
 Seyahat veritabanıyla çalışan bir istatistik paneli geliştirdim ve bunu Entity Framework kullanarak hayata geçirdim. Proje, Windows Forms üzerinde çalışarak kullanıcıya anlık olarak çeşitli istatistikleri görsel bir şekilde sunmayı hedefledi. 💻
 
 Projenin temel özellikleri şunlardı:
