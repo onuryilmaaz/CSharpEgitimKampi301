@@ -1,5 +1,5 @@
 <a target="_blank">
-    <img src="https://file.io/WBejRUjPBkk4" alt="Proje Görseli" width="500">
+    <img src="https://file.io/WBejRUjPBkk4" alt="Proje Görseli">
 </a>
 Seyahat veritabanıyla çalışan bir istatistik paneli geliştirdim ve bunu Entity Framework kullanarak hayata geçirdim. Proje, Windows Forms üzerinde çalışarak kullanıcıya anlık olarak çeşitli istatistikleri görsel bir şekilde sunmayı hedefledi. 💻
 
