@@ -1,8 +1,7 @@
 # Seyahat İstatistik Paneli
 
-<a target="_blank">
-    <img src="./CSharpEgitimKampi301/CSharpEgitimKampi301.EFProject/imgs/Ekran görüntüsü 2024-11-26 184556.png" alt="Proje Görseli">
-</a>
+![Ekran görüntüsü 2024-11-26 184556](https://github.com/user-attachments/assets/5fae3030-5248-40e5-a6d1-7da935db9e22)
+
 
 Seyahat veritabanıyla çalışan bir **istatistik paneli** geliştirdim ve bunu **Entity Framework** kullanarak hayata geçirdim. Proje, **Windows Forms** üzerinde çalışarak kullanıcıya anlık olarak çeşitli istatistikleri görsel bir şekilde sunmayı hedefledi. 💻
 
