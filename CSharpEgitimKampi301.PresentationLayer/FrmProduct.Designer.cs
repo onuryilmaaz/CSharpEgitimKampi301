@@ -38,11 +38,11 @@
 			this.btnList = new System.Windows.Forms.Button();
 			this.txtProductId = new System.Windows.Forms.TextBox();
 			this.label1 = new System.Windows.Forms.Label();
-			this.textProductStock = new System.Windows.Forms.TextBox();
+			this.txtProductStock = new System.Windows.Forms.TextBox();
 			this.label4 = new System.Windows.Forms.Label();
-			this.textDescription = new System.Windows.Forms.TextBox();
+			this.txtDescription = new System.Windows.Forms.TextBox();
 			this.label5 = new System.Windows.Forms.Label();
-			this.textProductPrice = new System.Windows.Forms.TextBox();
+			this.txtProductPrice = new System.Windows.Forms.TextBox();
 			this.label6 = new System.Windows.Forms.Label();
 			this.cmbCategory = new System.Windows.Forms.ComboBox();
 			this.label7 = new System.Windows.Forms.Label();
@@ -58,6 +58,7 @@
 			this.btnGetById.TabIndex = 25;
 			this.btnGetById.Text = "ID\'ye Göre Getir";
 			this.btnGetById.UseVisualStyleBackColor = true;
+			this.btnGetById.Click += new System.EventHandler(this.btnGetById_Click);
 			// 
 			// btnUpdate
 			// 
@@ -67,6 +68,7 @@
 			this.btnUpdate.TabIndex = 24;
 			this.btnUpdate.Text = "Güncelle";
 			this.btnUpdate.UseVisualStyleBackColor = true;
+			this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
 			// 
 			// btnDelete
 			// 
@@ -86,6 +88,7 @@
 			this.btnAdd.TabIndex = 22;
 			this.btnAdd.Text = "Ekle";
 			this.btnAdd.UseVisualStyleBackColor = true;
+			this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
 			// 
 			// txtProductName
 			// 
@@ -97,7 +100,7 @@
 			// label2
 			// 
 			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(43, 65);
+			this.label2.Location = new System.Drawing.Point(32, 65);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(57, 13);
 			this.label2.TabIndex = 17;
@@ -134,56 +137,56 @@
 			// label1
 			// 
 			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(47, 29);
+			this.label1.Location = new System.Drawing.Point(36, 29);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(53, 13);
 			this.label1.TabIndex = 13;
 			this.label1.Text = "Ürün ID : ";
 			// 
-			// textProductStock
+			// txtProductStock
 			// 
-			this.textProductStock.Location = new System.Drawing.Point(105, 103);
-			this.textProductStock.Name = "textProductStock";
-			this.textProductStock.Size = new System.Drawing.Size(179, 20);
-			this.textProductStock.TabIndex = 27;
+			this.txtProductStock.Location = new System.Drawing.Point(105, 103);
+			this.txtProductStock.Name = "txtProductStock";
+			this.txtProductStock.Size = new System.Drawing.Size(179, 20);
+			this.txtProductStock.TabIndex = 27;
 			// 
 			// label4
 			// 
 			this.label4.AutoSize = true;
-			this.label4.Location = new System.Drawing.Point(36, 106);
+			this.label4.Location = new System.Drawing.Point(25, 106);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(64, 13);
 			this.label4.TabIndex = 26;
 			this.label4.Text = "Ürün Stok : ";
 			// 
-			// textDescription
+			// txtDescription
 			// 
-			this.textDescription.Location = new System.Drawing.Point(105, 227);
-			this.textDescription.Multiline = true;
-			this.textDescription.Name = "textDescription";
-			this.textDescription.Size = new System.Drawing.Size(179, 75);
-			this.textDescription.TabIndex = 31;
+			this.txtDescription.Location = new System.Drawing.Point(105, 227);
+			this.txtDescription.Multiline = true;
+			this.txtDescription.Name = "txtDescription";
+			this.txtDescription.Size = new System.Drawing.Size(179, 75);
+			this.txtDescription.TabIndex = 31;
 			// 
 			// label5
 			// 
 			this.label5.AutoSize = true;
-			this.label5.Location = new System.Drawing.Point(45, 187);
+			this.label5.Location = new System.Drawing.Point(34, 187);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(55, 13);
 			this.label5.TabIndex = 30;
 			this.label5.Text = "Kategori : ";
 			// 
-			// textProductPrice
+			// txtProductPrice
 			// 
-			this.textProductPrice.Location = new System.Drawing.Point(105, 143);
-			this.textProductPrice.Name = "textProductPrice";
-			this.textProductPrice.Size = new System.Drawing.Size(179, 20);
-			this.textProductPrice.TabIndex = 29;
+			this.txtProductPrice.Location = new System.Drawing.Point(105, 143);
+			this.txtProductPrice.Name = "txtProductPrice";
+			this.txtProductPrice.Size = new System.Drawing.Size(179, 20);
+			this.txtProductPrice.TabIndex = 29;
 			// 
 			// label6
 			// 
 			this.label6.AutoSize = true;
-			this.label6.Location = new System.Drawing.Point(33, 146);
+			this.label6.Location = new System.Drawing.Point(22, 146);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(67, 13);
 			this.label6.TabIndex = 28;
@@ -200,7 +203,7 @@
 			// label7
 			// 
 			this.label7.AutoSize = true;
-			this.label7.Location = new System.Drawing.Point(15, 230);
+			this.label7.Location = new System.Drawing.Point(4, 230);
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(85, 13);
 			this.label7.TabIndex = 33;
@@ -225,11 +228,11 @@
 			this.Controls.Add(this.btnList2);
 			this.Controls.Add(this.label7);
 			this.Controls.Add(this.cmbCategory);
-			this.Controls.Add(this.textDescription);
+			this.Controls.Add(this.txtDescription);
 			this.Controls.Add(this.label5);
-			this.Controls.Add(this.textProductPrice);
+			this.Controls.Add(this.txtProductPrice);
 			this.Controls.Add(this.label6);
-			this.Controls.Add(this.textProductStock);
+			this.Controls.Add(this.txtProductStock);
 			this.Controls.Add(this.label4);
 			this.Controls.Add(this.btnGetById);
 			this.Controls.Add(this.btnUpdate);
@@ -243,6 +246,7 @@
 			this.Controls.Add(this.label1);
 			this.Name = "FrmProduct";
 			this.Text = "FrmProduct";
+			this.Load += new System.EventHandler(this.FrmProduct_Load);
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
@@ -261,11 +265,11 @@
 		private System.Windows.Forms.Button btnList;
 		private System.Windows.Forms.TextBox txtProductId;
 		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.TextBox textProductStock;
+		private System.Windows.Forms.TextBox txtProductStock;
 		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.TextBox textDescription;
+		private System.Windows.Forms.TextBox txtDescription;
 		private System.Windows.Forms.Label label5;
-		private System.Windows.Forms.TextBox textProductPrice;
+		private System.Windows.Forms.TextBox txtProductPrice;
 		private System.Windows.Forms.Label label6;
 		private System.Windows.Forms.ComboBox cmbCategory;
 		private System.Windows.Forms.Label label7;
